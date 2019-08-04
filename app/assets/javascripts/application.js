@@ -10,7 +10,20 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
+//= require jquery
 //= require rails-ujs
-//= require activestorage
 //= require turbolinks
-//= require_tree .
+//= require vendor/modernizr-2.7.1-respond-1.4.2.min.js
+//= require bootstrap-sprockets
+//= require activestorage
+//= require cable.js
+//= require plugins.js
+//= require helpers/gmaps.min.js
+//= require pages/about.js
+//= require pages/contact.js
+//= require pages/ecomCheckout.js
+//= require pages/portfolio.js
+//= require pages/pricing.js
+//= require_tree ./dashboard
+//= require_tree ./dashboard/pages
+//= require app.js
